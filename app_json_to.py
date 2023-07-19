@@ -46,7 +46,7 @@ st.title("JSON para Excel")
 
 # Campo de pesquisa
 url = st.text_input("Qual é a url da API?")
-st.text("Exemplo de URL: 'https://api-comprasv2.dth.nuvem.gov.br/modulo-pesquisa-preco/1_consultarMaterial?pagina=1&codigoItemCatalogo=267203'")
+st.text("Exemplo de URL:")
 st.text("https://api-comprasv2.dth.nuvem.gov.br/modulo-pesquisa-preco/1_consultarMaterial?pagina=1&codigoItemCatalogo=267203")
 
 # Variável de controle para exibir o botão de download após a exportação
